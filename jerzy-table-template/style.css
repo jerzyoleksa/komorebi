@@ -1,0 +1,15 @@
+.thetable {
+    margin:0px; 
+    padding: 0px; 
+    height: 100%;
+    width: auto;
+}
+
+.thetable td, .thetable th {
+    border: 1px solid silver;
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}

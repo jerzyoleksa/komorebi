@@ -1,0 +1,17 @@
+<div>
+<table class="thetable" ng-show="list != null">
+  <thead>
+    <th>no.</th>
+    <th ng-repeat="(key, value) in list[0]" ng-if="!skip.includes(key)">{{key}}</th>
+    <th ng-if="onClickExists">action</th>
+  </thead>
+  <tr ng-repeat="crypto in list track by $index" ng-class="{'orangebc': crypto.markerPair.indexOf('ONT') >= 0}">   
+    <td>{{$index}}</td>
+    <td ng-repeat="(key, value) in crypto" ng-if="!skip.includes(key)">{{ value }}</td>
+    <td ng-if="onClickExists" ng-click="onClick({param : crypto[pk]})"  class="thetable-action-col">
+    	cancel		
+    </td>
+  </tr>
+</table>
+
+</div>
