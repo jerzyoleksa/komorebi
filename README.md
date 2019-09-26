@@ -5,6 +5,6 @@ Angularjs data table directive
 2. the html template file should automatically be used by directive js
 3. use the directive in your angularjs html file using the following example
 
-<code>
+```
  <jerzy-table-template pk="id" skip="['id']" row-click="clickZisRow(param)" on-click="delIntakeRow(param)" list="overallIntake"></jerzy-table-template>
-</code>
+```
