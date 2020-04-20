@@ -1,4 +1,5 @@
-# komorebi [I'm an inline-style link](https://github.com/jerzyoleksa)
+# komorebi
+[author](https://github.com/jerzyoleksa)
 Angularjs data table directive
 
 1. put the folder with the 3 files into your projects and declare js and css files
