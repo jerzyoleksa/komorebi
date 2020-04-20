@@ -1,5 +1,5 @@
 # komorebi
-[author](https://github.com/jerzyoleksa)
+[about the author](https://github.com/jerzyoleksa)
 
 Angularjs data table directive
 
